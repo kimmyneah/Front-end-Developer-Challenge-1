@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cover-photo {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.date_container {
+    font-weight: 800;
+    position: absolute;
+    background-color: #ff0202;
+    transform: translate(50%,-90%) skew(-15deg);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin: auto; 
+    padding: 15px; 
+    text-align: center;
+}
+
+.share {
+    size: 1px;
+}
+
+/* Divider line style */
+.section-divider {
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%; /* Adjust width as needed */
+}
+
+/* Pagination styles */
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 1px solid #000000; /* Border around the pagination number */
+}
+
+.page-link:hover {
+    background-color: #b30000;
+}
+
+.page-link.active {
+    background-color: #ff0202;
+}
+
+.prev-next {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.prev-next:hover {
+    text-decoration: underline;
+}
